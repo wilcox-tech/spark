@@ -26,4 +26,5 @@ group :development, :test do
 end
 
 gem 'rails-settings-cached'
+gem 'active_link_to'
 

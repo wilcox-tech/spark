@@ -14,6 +14,7 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.1.3)
+    active_link_to (1.0.0)
     activemodel (3.2.6)
       activesupport (= 3.2.6)
       builder (~> 3.0.0)
@@ -141,6 +142,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_link_to
   capybara
   coffee-rails (~> 3.2.1)
   jquery-rails
