@@ -1,4 +1,9 @@
 en:
+  layouts:
+    application:
+      home: "Home"
+      projects: "Project List"
+      help: "Help"
   static_page:
     home:
       title: "Welcome"

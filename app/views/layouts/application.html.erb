@@ -10,6 +10,21 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <%= yield %>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <ul class="nav nav-list">
+            <li class="nav-header"><%= Settings.instance_name %></li>
+            <%= active_link_to t('.home'), '/', :wrap_tag => :li %>
+            <%= active_link_to t('.projects'), '/projects', :wrap_tag => :li %>
+            <li class="divider"></li>
+            <%= active_link_to t('.help'), '/help', :wrap_tag => :li %>
+          </ul>
+        </div>
+        <div class="span10">
+          <%= yield %>
+        </div>
+      </div> <!-- row-fluid -->
+    </div> <!-- container-fluid -->
   </body>
 </html>
