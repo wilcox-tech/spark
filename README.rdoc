@@ -1,3 +1,5 @@
+{<img src="https://secure.travis-ci.org/wilcox-tech/spark.png?branch=master" alt="Build Status" />}[http://travis-ci.org/wilcox-tech/spark]
+
 == About Spark
 
 Spark is a project management portal designed to help projects of all sizes
