@@ -70,6 +70,8 @@ GEM
       activesupport (= 3.2.6)
       bundler (~> 1.0)
       railties (= 3.2.6)
+    rails-settings-cached (0.2.1)
+      rails (>= 3.0.0)
     railties (3.2.6)
       actionpack (= 3.2.6)
       activesupport (= 3.2.6)
@@ -121,6 +123,7 @@ DEPENDENCIES
   jquery-rails
   json
   rails (= 3.2.6)
+  rails-settings-cached
   rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3
